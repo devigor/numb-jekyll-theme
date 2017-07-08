@@ -1,0 +1,1 @@
+"use strict";var myNav=document.querySelector(".site-header"),headroom=new Headroom(myNav,{offset:0,tolerance:10,classes:{initial:"animated",pinned:"slideDown",unpinned:"slideUp",top:"top"}});headroom.init();

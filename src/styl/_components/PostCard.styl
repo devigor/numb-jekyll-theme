@@ -1,0 +1,31 @@
+.post-container
+	font-family $font
+	color #212121
+	font-size 25px
+	position relative
+	margin 0 auto
+	max-width 700px
+	
+.article
+	display block
+	list-style none
+	&__item
+		display list-item
+		border-bottom 1px solid rgba(0,0,0,.3)
+		padding 25px 0
+		&--link
+			display flex
+			justify-content space-between
+			min-height 30px
+			text-decoration none
+			font-family $font
+			font-size 25px
+			color #616161
+			transition all .2s linear
+			&:hover
+				color #9E9E9E
+
+.article__item--date
+	display block
+	font-size 14px
+	text-align right

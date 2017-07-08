@@ -1,0 +1,19 @@
+---
+layout: home
+---
+<div id="particles-js" class="content">
+  <header class="info">
+    <h1 class="info__title">{{ site.title }}</h1>
+    <p class="info__description">{{ site.description }}</p>
+  </header>
+  <div class="group-buttons">
+    {% for link in site.links %}
+      <a href="{{ link.url }}"><button class="group-buttons__btn">{{ link.title }}</button></a>
+    {% endfor %}
+  </div>
+  <div class="icons">
+    <a target="_blank" href="https://github.com/{{site.author.github}}"><img src="{{ "/assets/img/svg/github.svg" }}" alt="Github" class="icon"></a>
+    <a target="_blank" href="https://twitter.com/@{{site.author.twitter}}"><img src="{{ "/assets/img/svg/twitter.svg "}}" alt="Twitter" class="icon"></a>
+    <a target="_blank" href="https://codepen.io/{{site.author.codepen}}"><img src="{{ "/assets/img/svg/codepen.svg" }}" alt="Codepen" class="icon"></a>
+  </div>
+</div>
