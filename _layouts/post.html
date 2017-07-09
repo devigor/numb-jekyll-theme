@@ -1,5 +1,16 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<br><br>
+<div class="post">
+    <div class="banner">
+        <h1 class="banner__title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    </div>
+    <div class="post-container">
+        {{ content }}
+    </div>
+    <section class="post-comments">
+        {% include comments.html %}
+    </section>
+</div>
+{% include analytics.html %}

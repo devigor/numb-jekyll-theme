@@ -2,8 +2,9 @@
   display flex
   width 100%
   height 46px
-  background-color #222
+  background-color transparent
   position fixed
+  z-index 1
   &__logo
     fontStyle(30px, $font-secondary, $secondary-color)
     margin 5px 10px
@@ -12,6 +13,15 @@
 .animeted
   animation-duration .2s
   animation-fill-mode both
+
+.notBottom
+  background-color $navbar-bg
+
+.bottom
+  background-color $navbar-bg
+
+.notTop
+  background-color $navbar-bg
 
 .animated.slideUp
   animation slideUp

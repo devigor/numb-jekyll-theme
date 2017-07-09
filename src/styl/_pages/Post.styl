@@ -1,0 +1,49 @@
+.post
+  .banner
+    padding-top 60px
+    margin-top -46px
+    min-height 105vh
+    width 100%
+    background $navbar-bg
+    position relative
+    box-sizing border-box
+
+    &__title
+      fontStyle(7rem, $font-family, $secondary-color)
+      text-align center
+      width 80%
+      margin-top 15%
+      margin-left 9%
+
+
+  .post-container
+    padding-bottom 6rem
+    position relative
+    z-index 5
+
+    h1,
+    h2,
+    h3,
+    h4
+
+      fontStyle(2rem, $font-family, $navbar-bg)
+      letter-spacing .2rem
+
+    p
+      fontStyle(1.5rem, $font-secondary, $navbar-bg)
+      width auto
+      max-width 80rem
+      margin 0 auto 3rem
+      padding 0 1rem
+      letter-spacing .01rem
+      box-sizing border-box
+      line-height 2
+      font-weight 400
+    a
+      text-decoration none
+      color white
+      background-color $navbar-bg
+
+  .post-comments
+    margin auto
+    max-width: 840px

@@ -7,9 +7,9 @@ const headroom = new Headroom(myNav, {
     "pinned": "slideDown",
     "unpinned": "slideUp",
     "top": "top",
-    // "notTop": "notTop",
-    // "bottom": "bottom",
-    // "notBottom": "notBottom"
+    "notTop": "notTop",
+    "bottom": "bottom",
+    "notBottom": "notBottom"
   }
 });
 headroom.init();

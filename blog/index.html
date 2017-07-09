@@ -8,7 +8,7 @@ title: 'Blog'
 	<ul class="article">
     {% for post in site.posts %}
 		<li class="article__item">
-			<a href="{{ post.url }}.html" class="article__item--link">{{ post.title }}
+			<a href="{{ post.url }}" class="article__item--link">{{ post.title }}
 				<span class="article__item--date">{{ post.date | date: "%B %d, %Y" }}</span>
 			</a>
 		</li>

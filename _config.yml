@@ -1,25 +1,18 @@
 ## Site config ##
-title: Igor Oliveira
-description: Desenvolvedor Web e Ux Design em Formação
-baseurl: "/"
-url: "https://devigor.github.io"
+title: Lorem Ipsum
+description: Your description
+baseurl: "/" # Ex: /blog/
+url: "" # Hostname
 ## Author config ##
 author:
-  name: Igor Oliveira
-  description: Oi, eu me chamo Igor!
-  email: devigor.tere@gmail.com
-  twitter: _devigor
-  github:  devigor
-  codepen: devigor
+  twitter: loremipsum
+  github:  loremipsum
+  codepen: loremipsum
 ## Links configs ##
-permalink: /:title
+permalink: /blog/:title/
 links:
   - title: Blog
     url: /blog/
-  - title: Sobre
-    url: /about/
-  - title: Projetos
-    url: /projetos/
 ## Other ##
 highlighter: rouge
 markdown: kramdown
